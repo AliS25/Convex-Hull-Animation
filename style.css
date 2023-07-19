@@ -1,0 +1,91 @@
+body {
+    background-color: #f7f7f7; 
+    background-image: linear-gradient(to bottom right, #f7f7f7, #fff);
+  }
+  
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#convex-hull-box{
+        display: block;
+        margin: auto;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+      
+      
+}
+
+.points{
+    r: 10px;
+    fill:black;
+}
+
+.ch-segment{
+   stroke: green;
+   stroke-width: 4;
+}
+
+.no-ch-segment{
+    stroke: grey;
+    stroke-width: 4;
+}
+
+.highlight{
+    stroke: red;
+    stroke-width: 5;
+}
+
+/* h1 styling */
+h1 {
+    font-size: 3.5rem; 
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem; 
+    color: #333; 
+  }
+  
+  /* p styling */
+  p {
+    font-size: 1.25rem; 
+    line-height: 1.5;
+    margin-bottom: 1.5rem; 
+    color: #666; 
+  }
+  
+  /* elegant styles */
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    border-left: 4px solid #4CAF50; 
+    padding-left: 1rem;
+  }
+  
+  
+  button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem; 
+    font-size: 1rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
